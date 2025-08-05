@@ -1,0 +1,51 @@
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.editorWrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.code-editor {
+    flex: 1;
+    background-color: #1c1e29;
+}
+
+.bottom-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1c1e29;
+    padding: 10px;
+    height: 200px;
+}
+
+.output-console {
+    flex: 1;
+    background-color: #282a36;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.run-btn {
+    background-color: rgb(12, 209, 38);
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+}
